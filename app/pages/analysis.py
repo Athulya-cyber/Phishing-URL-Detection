@@ -14,7 +14,7 @@ st.header("📊 Data Visualization")
 
 st.subheader("Dataset")
 
-data = pd.read_csv(r"C:\Users\Lenovo\Documents\Cyber Square\Work\Phishing URL Detection (SVM)\Data\phishing_url_svm_ready.csv")
+data = pd.read_csv("Data/phishing_url_svm_ready.csv")
 
 show_data = st.checkbox("Show Dataset")
 if show_data:
