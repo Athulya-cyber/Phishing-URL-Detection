@@ -11,7 +11,7 @@ st.markdown(
 
 
 # Load trained model
-model = joblib.load(r"C:\Users\Lenovo\Documents\Cyber Square\Work\Phishing URL Detection (SVM)\Model\phishing_svm_model.joblib")
+model = joblib.load("Model/phishing_svm_model.joblib")
 
 
 
